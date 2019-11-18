@@ -114,10 +114,15 @@ header {
   z-index: 10;
 }
 
-header .container {
+.container {
   position: relative;
   max-width: 1310px;
   margin: 0 auto;
+}
+
+.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 header .header-top {
@@ -255,6 +260,99 @@ header .link-3 img {
   vertical-align: initial;
 }
 
+/* content */
+
+main {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+#left-col {
+  position: relative;
+  height: 3885px;
+}
+
+.block-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,0.4);
+}
+
+.feature article {
+  padding-bottom: 20px;
+}
+
+.feature .img-wrap,
+.sponsor .img-wrap {
+  position: relative;
+  min-height: 33px;
+}
+
+.feature .img-wrap {
+  margin-bottom: 10px;
+}
+
+.feature .caption,
+.sponsor .caption {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.feature .caption {
+  color: #f72210;
+}
+
+.sponsor .caption {
+  color: #3581f4;
+}
+
+.feature .caption a,
+.sponsor .caption a {
+  color: inherit;
+}
+
+.feature .image img,
+.sponsor .image img {
+  width: 100%;
+}
+
+.feature h3,
+.sponsor h3 {
+  position: relative;
+  margin-bottom: 10px;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+}
+
+.feature h3 a,
+.sponsor h3 a {
+  color: inherit;
+}
+
+.feature h3 a:hover,
+.sponsor h3 a:hover {
+  text-decoration: underline #f72210;
+}
+
+.sponsor .info {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+/* Media Queries */
+
 @media screen and (min-width: 481px) {
   .link-1,
   .link-2,
@@ -266,5 +364,16 @@ header .link-3 img {
 
   header .link-2 {
     padding: 6px 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #big-col {
+    max-width: 71%;
+  }
+
+  #left-col {
+    width: 41%;
+    max-width: 41%;
   }
 }
