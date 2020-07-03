@@ -397,14 +397,6 @@ header .header-bottom .nav-bar li:first-child {
   border-left-width: 0;
 }
 
-header .header-bottom .nav-bar li a {
-  color: #000;
-}
-
-header .header-bottom .nav-bar li a:hover {
-  color: #f72210;
-}
-
 #search-input {
   width: 60px;
   height: 54px;
@@ -955,6 +947,14 @@ main {
 .magazine .big-shots h5 {
   margin-top: 10px;
   text-transform: uppercase;
+}
+
+header .header-bottom .nav-bar li a {
+  color: #000;
+}
+
+header .header-bottom .nav-bar li a:hover {
+  color: #f72210;
 }
 
 .big-shots .image {
