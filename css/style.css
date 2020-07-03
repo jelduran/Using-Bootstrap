@@ -721,17 +721,6 @@ header .header-bottom .nav-bar li:first-child {
   margin-top: 8px;
 }
 
-#more-stories article {
-  padding-top: 14px;
-  padding-bottom: 14px;
-  border-top: 1px solid #ddd;
-}
-
-#more-stories article .image {
-  width: 95px;
-  margin-right: 15px;
-}
-
 .block-title {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -1088,6 +1077,17 @@ header .header-bottom .nav-bar li a:hover {
 .subscribe-r .info {
   border: 1px solid #ebebeb;
   padding: 20px;
+}
+
+#more-stories article {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+#more-stories article .image {
+  width: 95px;
+  margin-right: 15px;
 }
 
 /* footer */
