@@ -100,6 +100,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .genericon {
   font-size: 26px;
   text-align: center;
@@ -107,18 +108,23 @@
   font-family: "Genericons";
   cursor: pointer;
 }
+
 .genericon-chat:before {
   content: "\f108";
 }
+
 .genericon-collapse:before {
   content: "\f432";
 }
+
 .genericon-comment:before {
   content: "\f300";
 }
+
 .genericon-expand:before {
   content: "\f431";
 }
+
 .genericon-downarrow:before {
   content: "\f502";
 }
@@ -128,78 +134,103 @@
 .genericon-facebook-alt:before {
   content: "\f204";
 }
+
 .genericon-feed:before {
   content: "\f413";
 }
+
 .genericon-flag:before {
   content: "\f468";
 }
+
 .genericon-googleplus:before {
   content: "\f218";
 }
+
 .genericon-googleplus-alt:before {
   content: "\f218";
 }
+
 .genericon-home:before {
   content: "\f409";
 }
+
 .genericon-info:before {
   content: "\f455";
 }
+
 .genericon-instagram:before {
   content: "\f215";
 }
+
 .genericon-linkedin-alt:before {
   content: "\f208";
 }
+
 .genericon-linkedin:before {
   content: "\f207";
 }
+
 .genericon-mail:before {
   content: "\f410";
 }
+
 .genericon-menu:before {
   content: "\f419";
 }
+
 .genericon-next:before {
   content: "\f429";
 }
+
 .genericon-pinterest-alt:before {
   content: "\f210";
 }
+
 .genericon-pinterest:before {
   content: "\f209";
 }
+
 .genericon-play:before {
   content: "\f452";
 }
+
 .genericon-previous:before {
   content: "\f430";
 }
+
 .genericon-reddit:before {
   content: "\f222";
 }
+
 .genericon-search:before {
   content: "\f400";
 }
+
 .genericon-subscribe:before {
   content: "\f463";
 }
+
 .genericon-tumblr:before {
   content: "\f214";
 }
+
 .genericon-twitter:before {
   content: "\f202";
 }
+
 .genericon-uparrow:before {
   content: "\f500";
 }
+
 .genericon-warning:before {
   content: "\f414";
 }
+
 .genericon-close:before {
   content: "\f405";
 }
+
 .genericon-close-alt:before {
   content: "\f406";
 }
@@ -342,7 +373,7 @@ header .header-bottom::before {
 }
 
 header .header-bottom .nav-bar {
-  color:#000;
+  color: #000;
   width: 100%;
   font-size: 19px;
   line-height: 24px;
@@ -367,7 +398,7 @@ header .header-bottom .nav-bar li:first-child {
 }
 
 header .header-bottom .nav-bar li a {
-  color:#000;
+  color: #000;
 }
 
 header .header-bottom .nav-bar li a:hover {
@@ -420,7 +451,7 @@ header .link-2 {
 
 header .link-3 {
   background-color: #ffe400;
-  color:#000;
+  color: #000;
   font-size: 18px;
   line-height: 18px;
   margin-left: 10px;
@@ -461,7 +492,7 @@ header .small-logo img {
 
 header .small-link-3 {
   background-color: #ffe400;
-  color:#000;
+  color: #000;
   font-size: 13px;
   line-height: 24px;
   margin: 0;
@@ -1050,8 +1081,7 @@ main {
 
 .subscribe-r .image {
   background:
-  rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
-    scroll center center / cover;
+    rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat scroll center center / cover;
   width: 48%;
   max-width: 191px;
 }
