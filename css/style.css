@@ -40,7 +40,8 @@
 @font-face {
   font-family: "Playfair Display";
   font-display: swap;
-  src: local("playfair_displayregular"),
+  src:
+    local("playfair_displayregular"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot);
   font-display: swap;
   src:
@@ -203,9 +204,9 @@
   content: "\f406";
 }
 
-/* CUSTOM*/
+/* CUSTOM */
 
-/* header*/
+/* header */
 body {
   font-size: 15px;
   line-height: 20px;
@@ -341,7 +342,7 @@ header .header-bottom::before {
 }
 
 header .header-bottom .nav-bar {
-  color: #000000;
+  color:#000;
   width: 100%;
   font-size: 19px;
   line-height: 24px;
@@ -366,7 +367,7 @@ header .header-bottom .nav-bar li:first-child {
 }
 
 header .header-bottom .nav-bar li a {
-  color: #000000;
+  color:#000;
 }
 
 header .header-bottom .nav-bar li a:hover {
@@ -419,7 +420,7 @@ header .link-2 {
 
 header .link-3 {
   background-color: #ffe400;
-  color: #000000;
+  color:#000;
   font-size: 18px;
   line-height: 18px;
   margin-left: 10px;
@@ -437,7 +438,7 @@ header .link-3 img {
   vertical-align: initial;
 }
 
-/* responsive header*/
+/* responsive header */
 
 .header-md-sm {
   z-index: 1100;
@@ -460,7 +461,7 @@ header .small-logo img {
 
 header .small-link-3 {
   background-color: #ffe400;
-  color: #000000;
+  color:#000;
   font-size: 13px;
   line-height: 24px;
   margin: 0;
@@ -478,7 +479,7 @@ header .small-link-3 {
   border: 0;
 }
 
-/* content*/
+/* content */
 
 main {
   padding-top: 20px;
@@ -809,7 +810,7 @@ main {
   padding: 20px;
 }
 
-/* Middle sections*/
+/* Middle sections */
 
 .mid-sections {
   margin-top: 20px;
@@ -1060,7 +1061,7 @@ main {
   padding: 20px;
 }
 
-/* footer*/
+/* footer */
 
 .page-footer.container-fluid {
   padding-left: 0;
@@ -1167,7 +1168,7 @@ main {
   cursor: pointer;
 }
 
-/* Media Queries*/
+/* Media Queries */
 
 @media screen and (min-width: 481px) {
   .link-1,
