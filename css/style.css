@@ -539,6 +539,11 @@ main {
   left: 0;
 }
 
+.feature h3 a,
+.sponsor h3 a {
+  color: inherit;
+}
+
 .misc-item .caption a {
   background-color: #c2d4d7;
   padding-left: 6px;
@@ -789,11 +794,6 @@ header .header-bottom .nav-bar li:first-child {
   font-weight: 600;
   line-height: 24px;
   color: #000;
-}
-
-.feature h3 a,
-.sponsor h3 a {
-  color: inherit;
 }
 
 .feature h3 a:hover,
