@@ -619,7 +619,27 @@ main {
   padding-top: 10px;
 }
 
-.magazine .nw-title {
+.see-all::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(../img/icon-arrow-right-black.svg) center/contain no-repeat;
+}
+
+.see-all {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+}
+
+.magazine .nw-title,
+.picks .nw-title {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 8px;
 }
@@ -634,6 +654,111 @@ main {
   left: 0;
   z-index: 1;
 }
+
+.magazine .see-all::after {
+  background-image: url(../img/icon-arrow-right-black.svg);
+}
+
+.magazine .see-all {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.magazine .col-md-4 img,
+.magazine .col-md-3 img {
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  max-width: inherit;
+}
+
+.magazine .image a {
+  padding-bottom: 100%;
+}
+
+.magazine article .category {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.magazine article .category span:first-of-type {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.magazine article .category span {
+  display: inline-block;
+}
+
+.magazine .bottom {
+  padding-top: 30px;
+}
+
+.magazine .big-shots .wrap .category {
+  display: block;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #f72210;
+  color: white;
+  padding: 0 7px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.magazine .big-shots h5 {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.big-shots .image {
+  padding-bottom: 110%;
+}
+
+.big-shots .image a.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  line-height: 16px;
+}
+
+.editors-pick {
+  margin-bottom: 20px;
+}
+
+.section-picks .block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 481px) {
@@ -685,5 +810,14 @@ main {
 
   .magazine {
     margin-bottom: 30px;
+  }
+
+  .magazine h5 {
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
