@@ -856,6 +856,14 @@ header .header-bottom .nav-bar li:first-child {
   padding-bottom: 8px;
 }
 
+.magazine article .category {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .magazine .wrap .category {
   font: bold 16px/33px "Roboto Condensed", sans-serif;
   color: #f72210;
@@ -890,12 +898,8 @@ header .header-bottom .nav-bar li:first-child {
   max-width: inherit;
 }
 
-.magazine article .category {
-  font: bold 16px/26px "Roboto Condensed", sans-serif;
-  color: #f72210;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.magazine article .category span {
+  display: inline-block;
 }
 
 .magazine article .category span:first-of-type {
@@ -903,10 +907,6 @@ header .header-bottom .nav-bar li:first-child {
   background-color: #f72210;
   color: white;
   margin-right: 7px;
-}
-
-.magazine article .category span {
-  display: inline-block;
 }
 
 .magazine .bottom {
@@ -933,17 +933,22 @@ header .header-bottom .nav-bar li:first-child {
   text-transform: uppercase;
 }
 
+.debate .title a:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+
+.picks-list .info a:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+
 header .header-bottom .nav-bar li a {
   color: #000;
 }
 
 header .header-bottom .nav-bar li a:hover {
   color: #f72210;
-}
-
-.debate .title a:hover {
-  text-decoration: none;
-  color: #f92859;
 }
 
 .big-shots .image {
@@ -980,11 +985,6 @@ header .header-bottom .nav-bar li a:hover {
 .picks-list .image {
   flex: none;
   width: 95px;
-}
-
-.picks-list .info a:hover {
-  text-decoration: none;
-  color: #f92859;
 }
 
 .subscribe {
