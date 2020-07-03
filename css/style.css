@@ -796,6 +796,10 @@ header .header-bottom .nav-bar li:first-child {
   color: #000;
 }
 
+.magazine .image a {
+  padding-bottom: 100%;
+}
+
 .feature h3 a:hover,
 .sponsor h3 a:hover {
   text-decoration: underline #f72210;
@@ -884,10 +888,6 @@ header .header-bottom .nav-bar li:first-child {
   width: auto;
   height: 100%;
   max-width: inherit;
-}
-
-.magazine .image a {
-  padding-bottom: 100%;
 }
 
 .magazine article .category {
