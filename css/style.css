@@ -606,11 +606,6 @@ header .header-bottom .nav-bar li:first-child {
   z-index: 1;
 }
 
-.debate .title a:hover {
-  text-decoration: none;
-  color: #f92859;
-}
-
 .debate .byline {
   color: black;
 }
@@ -944,6 +939,11 @@ header .header-bottom .nav-bar li a {
 
 header .header-bottom .nav-bar li a:hover {
   color: #f72210;
+}
+
+.debate .title a:hover {
+  text-decoration: none;
+  color: #f92859;
 }
 
 .big-shots .image {
