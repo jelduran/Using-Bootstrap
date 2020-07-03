@@ -431,6 +431,47 @@ header .link-3 img {
   vertical-align: initial;
 }
 
+/* responsive header */
+
+.header-md-sm {
+  z-index: 1100;
+}
+
+.responsive-header {
+  transform: translate(0, 0);
+  position: relative;
+  left: inherit;
+  z-index: 1000;
+  padding: 15px;
+  background-color: #f72210;
+}
+
+header .small-logo img {
+  width: 132px;
+  height: 20px;
+  margin: 0;
+}
+
+header .small-link-3 {
+  background-color: #ffe400;
+  color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 12px;
+  border-radius: 24px;
+}
+
+.login-icon-btn {
+  font-size: 0;
+  background: url(../img/user-w.svg) center / contain no-repeat;
+  width: 30px;
+  height: 30px;
+  padding-left: 0;
+  opacity: 0.75;
+  border: 0;
+}
+
 /* content */
 
 main {
@@ -442,11 +483,13 @@ main {
   position: relative;
 }
 
-.sticky-bottom {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 0;
-  z-index: 1020;
+.sticky-nav {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1100 !important;
+  width: 100% !important;
 }
 
 .col2-misc-block {
@@ -1108,6 +1151,14 @@ main {
   cursor: pointer;
 }
 
+.menu-icon {
+  padding-left: 8px;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 24px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 481px) {
@@ -1211,10 +1262,6 @@ main {
   .subscribe-l,
   .subscribe-r .info {
     padding: 30px;
-  }
-
-  .subscribe-r .info {
-    border-left-width: 0;
   }
 
   .page-footer .footer-links li {

@@ -9,7 +9,7 @@
     <title>Newsweek - News, Analysis, Politics, Bussines, Technology</title>
   </head>
   <body>
-    <header>
+    <header class="d-none d-lg-block d-xl-block">
       <div class="container no-side-padding">
         <div class="header-top d-flex justify-content-between align-items-end">
           <div class="col-6 no-side-padding">
@@ -48,6 +48,20 @@
             </ul>
           </div>
         </nav>
+      </div>
+    </header>
+    <header class="d-lg-none d-xl-none d-block sticky-top header-md-sm">
+      <div class="responsive-header d-flex flex-row justify-content-between">
+        <div class="">
+          <a href="" class="small-logo"><img src="img/newsweek-logo.svg" alt="" /></a>
+        </div>
+        <div class="col-6 no-side-padding d-flex align-items-center justify-content-end">
+          <a href="" class="link-2 d-none d-md-block d-xl-block">Login</a>
+          <button class="login-icon-btn d-block d-md-none d-xl-none"></button>
+          <a href="" class="link-3 small-link-3">Ad Free Trial</a>
+          <span class="genericon genericon-menu menu-icon">
+          </span>
+        </div>
       </div>
     </header>
     <main class="container-fluid">
@@ -267,7 +281,7 @@
               </div>
               <div class="news-col2 position-relative">
                 <div class="col-position2 sticky-top">
-                  <div class="d-flex flex-sm-column">
+                  <div class="d-flex flex-column">
                     <div id="top-story" class="order-1">
                       <div>
                         <div>
@@ -1796,7 +1810,7 @@
         <div class="row">
           <div class="col-md-7 col-lg-8 flex-column d-flex">
             <div class="block-title red">Subscribe</div>
-            <div class="subscribe-l d-flex align-items-center flex-grow-1 flex-shrink-1">
+            <div class="subscribe-l d-lg-flex align-items-center flex-grow-1">
               <div class="image flex-grow-0 flex-shrink-0 position-relative">
                 <div class="mag-thumb previous">
                   <img src="img/cover-july-03-2020.jpg" alt="">
@@ -1816,12 +1830,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-lg-4 flex-column d-flex">
+          <div class="col-md-5 col-lg-4 flex-column d-flex mt-5 mt-md-0">
               <div class="block-title red">
                 NEWSLETTER
               </div>
               <div class="d-flex subscribe-r flex-shrink-1 flex-grow-1">
-                <div class="image flex-grow-0 flex-shrink-0">                    
+                <div class="image flex-grow-0 flex-shrink-0 d-none d-lg-block">                    
                 </div>
                 <div class="info flex-shrink-1 flex-grow-1">
                   <h3>The Starting 5</h3>
