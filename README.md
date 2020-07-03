@@ -16,9 +16,7 @@ Building a Newsweek's Homepage clone:
 2. Breakpoints for small, medium and big screens.
 3. Use the Bootstrap Framework for layout and styles.
 
-## Project source can be downloaded from: <https://github.com/jelduran/Design-your-own-Grid-based-Framework>
-
-## Framework applied in: <https://github.com/jelduran/Using-Bootstrap>
+## Project source can be downloaded from: <https://github.com/jelduran/Using-Bootstrap>
 
 **[Live version](https://raw.githack.com/jelduran/Using-Bootstrap/feature/index.html)**
   
