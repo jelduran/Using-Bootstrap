@@ -1,6 +1,6 @@
 # Using Bootstrap
 
-## HTML & CSS - Project 6
+## HTML & CSS - Project 7
 
 ### Microverse
 
@@ -18,9 +18,9 @@ Building a Newsweek's Homepage clone:
 
 ## Project source can be downloaded from: <https://github.com/jelduran/Design-your-own-Grid-based-Framework>
 
-## Framework applied in: <https://github.com/jelduran/Framework-Sass>
+## Framework applied in: <https://github.com/jelduran/Using-Bootstrap>
 
-**[Live version](https://raw.githack.com/jelduran/Framework-Sass/feature/index.html)**
+**[Live version](https://raw.githack.com/jelduran/Using-Bootstrap/feature/index.html)**
   
 ## License & Copyright
 
