@@ -94,7 +94,6 @@
 }
 .genericon {
   font-size: 26px;
-  vertical-align: top;
   text-align: center;
   display: block;
   font-family: "Genericons";
@@ -1094,6 +1093,7 @@ main {
 }
 
 .page-footer .social {
+  padding-left: 0;
   color: #666;
   margin-bottom: 12px;
   list-style: none outside none;
