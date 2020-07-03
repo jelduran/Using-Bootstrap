@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src: local("roboto_condensedbold"),
+  src:
+    local("roboto_condensedbold"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff)
@@ -13,7 +14,8 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src: local("roboto_condensedregular"),
+  src:
+    local("roboto_condensedregular"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff)
@@ -25,7 +27,8 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src: local("roboto_condensedlight"),
+  src:
+    local("roboto_condensedlight"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff)
@@ -40,7 +43,8 @@
   src: local("playfair_displayregular"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot);
   font-display: swap;
-  src: url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
+  src:
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
       format("embedded-opentype"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
       format("woff2"),
@@ -57,7 +61,8 @@
 @font-face {
   font-family: "Farro";
   font-display: swap;
-  src: local("farromedium"),
+  src:
+    local("farromedium"),
     url(https://g.newsweek.com/www/fonts/farro-medium-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/farro-medium-webfont.woff)
@@ -69,7 +74,8 @@
 @font-face {
   font-family: "Lora";
   font-display: swap;
-  src: local("loraregular"),
+  src:
+    local("loraregular"),
     url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff)
@@ -83,7 +89,8 @@
   font-display: swap;
   src: local("Genericons"), url(https://g.newsweek.com/www/fonts/Genericons.eot);
   font-display: swap;
-  src: url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix)
+  src:
+    url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix)
       format("embedded-opentype"),
     url(https://g.newsweek.com/www/fonts/Genericons.woff) format("woff"),
     url(https://g.newsweek.com/www/fonts/Genericons.ttf) format("truetype"),
@@ -196,7 +203,7 @@
   content: "\f406";
 }
 
-/* CUSTOM */
+/* CUSTOM*/
 
 /* header*/
 body {
@@ -334,7 +341,7 @@ header .header-bottom::before {
 }
 
 header .header-bottom .nav-bar {
-  color: #000;
+  color: #000000;
   width: 100%;
   font-size: 19px;
   line-height: 24px;
@@ -359,7 +366,7 @@ header .header-bottom .nav-bar li:first-child {
 }
 
 header .header-bottom .nav-bar li a {
-  color: #000;
+  color: #000000;
 }
 
 header .header-bottom .nav-bar li a:hover {
@@ -430,7 +437,7 @@ header .link-3 img {
   vertical-align: initial;
 }
 
-/* responsive header */
+/* responsive header*/
 
 .header-md-sm {
   z-index: 1100;
@@ -471,7 +478,7 @@ header .small-link-3 {
   border: 0;
 }
 
-/* content */
+/* content*/
 
 main {
   padding-top: 20px;
@@ -802,7 +809,7 @@ main {
   padding: 20px;
 }
 
-/* Middle sections */
+/* Middle sections*/
 
 .mid-sections {
   margin-top: 20px;
@@ -1041,7 +1048,8 @@ main {
 }
 
 .subscribe-r .image {
-  background: rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
+  background:
+  rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
     scroll center center / cover;
   width: 48%;
   max-width: 191px;
@@ -1052,7 +1060,7 @@ main {
   padding: 20px;
 }
 
-/* footer */
+/* footer*/
 
 .page-footer.container-fluid {
   padding-left: 0;
@@ -1159,7 +1167,7 @@ main {
   cursor: pointer;
 }
 
-/* Media Queries */
+/* Media Queries*/
 
 @media screen and (min-width: 481px) {
   .link-1,
