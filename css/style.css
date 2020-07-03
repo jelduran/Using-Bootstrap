@@ -933,6 +933,18 @@ header .header-bottom .nav-bar li:first-child {
   text-transform: uppercase;
 }
 
+.page-footer .social li {
+  margin-left: 10px;
+}
+
+.page-footer .social li:first-child {
+  margin-left: 0;
+}
+
+header .header-bottom .nav-bar li a {
+  color: #000;
+}
+
 .debate .title a:hover {
   text-decoration: none;
   color: #f92859;
@@ -941,10 +953,6 @@ header .header-bottom .nav-bar li:first-child {
 .picks-list .info a:hover {
   text-decoration: none;
   color: #f92859;
-}
-
-header .header-bottom .nav-bar li a {
-  color: #000;
 }
 
 header .header-bottom .nav-bar li a:hover {
@@ -1136,14 +1144,6 @@ header .header-bottom .nav-bar li a:hover {
   color: #666;
   margin-bottom: 12px;
   list-style: none outside none;
-}
-
-.page-footer .social li {
-  margin-left: 10px;
-}
-
-.page-footer .social li:first-child {
-  margin-left: 0;
 }
 
 .page-footer .social .genericon {
