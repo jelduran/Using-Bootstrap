@@ -1081,7 +1081,7 @@ header .header-bottom .nav-bar li a:hover {
 
 .subscribe-r .image {
   background:
-  rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
+    rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
     scroll center center / cover;
   width: 48%;
   max-width: 191px;
