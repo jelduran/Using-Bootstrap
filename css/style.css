@@ -1,8 +1,7 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src:
-    local("roboto_condensedbold"),
+  src: local("roboto_condensedbold"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff)
@@ -14,8 +13,7 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src:
-    local("roboto_condensedregular"),
+  src: local("roboto_condensedregular"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff)
@@ -27,8 +25,7 @@
 @font-face {
   font-family: "Roboto Condensed";
   font-display: swap;
-  src:
-    local("roboto_condensedlight"),
+  src: local("roboto_condensedlight"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff)
@@ -40,11 +37,9 @@
 @font-face {
   font-family: "Playfair Display";
   font-display: swap;
-  src:
-    local("playfair_displayregular"),
+  src: local("playfair_displayregular"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot);
-  src:
-    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
+  src: url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
       format("embedded-opentype"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
       format("woff2"),
@@ -61,8 +56,7 @@
 @font-face {
   font-family: "Farro";
   font-display: swap;
-  src:
-    local("farromedium"),
+  src: local("farromedium"),
     url(https://g.newsweek.com/www/fonts/farro-medium-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/farro-medium-webfont.woff)
@@ -74,8 +68,7 @@
 @font-face {
   font-family: "Lora";
   font-display: swap;
-  src:
-    local("loraregular"),
+  src: local("loraregular"),
     url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2)
       format("woff2"),
     url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff)
@@ -88,8 +81,7 @@
   font-family: "Genericons";
   font-display: swap;
   src: local("Genericons"), url(https://g.newsweek.com/www/fonts/Genericons.eot);
-  src:
-    url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix)
+  src: url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix)
       format("embedded-opentype"),
     url(https://g.newsweek.com/www/fonts/Genericons.woff) format("woff"),
     url(https://g.newsweek.com/www/fonts/Genericons.ttf) format("truetype"),
@@ -1080,7 +1072,8 @@ header .header-bottom .nav-bar li a:hover {
 }
 
 .subscribe-r .image {
-  background: rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
+    scroll center center / cover;
   width: 48%;
   max-width: 191px;
 }
@@ -1187,8 +1180,8 @@ header .header-bottom .nav-bar li a:hover {
 }
 
 .page-footer .footer-links label {
-  margin-top:6px;
-  margin-right:15px
+  margin-top: 6px;
+  margin-right: 15px;
 }
 
 .menu-icon {
@@ -1253,28 +1246,6 @@ header .header-bottom .nav-bar li a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .col-wrap .news-col1 {
-    width: 41%;
-  }
-
-  .col-wrap .news-col2 {
-    width: 59%;
-  }
-
-  .col-wrap .news-col3 {
-    width: 100%;
-  }
-
-  .col-wrap .news-col4 {
-    width: 100%;
-  }
-
-  .special {
-    max-width: 330px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .misc-item {
     flex: 1;
   }
@@ -1333,5 +1304,25 @@ header .header-bottom .nav-bar li a:hover {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .col-wrap .news-col1 {
+      width: 41%;
+    }
+
+    .col-wrap .news-col2 {
+      width: 59%;
+    }
+
+    .col-wrap .news-col3 {
+      width: 100%;
+    }
+
+    .special {
+      max-width: 330px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
