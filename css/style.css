@@ -43,15 +43,16 @@
   src:
     local("playfair_displayregular"),
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot);
-  src: url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
+  src:
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
       format("embedded-opentype"),
-      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
       format("woff2"),
-      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff)
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff)
       format("woff"),
-      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.ttf)
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.ttf)
       format("truetype"),
-      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.svg#playfair_displayregular)
+    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.svg#playfair_displayregular)
       format("svg");
   font-weight: normal;
   font-style: normal;
