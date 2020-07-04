@@ -1186,6 +1186,11 @@ header .header-bottom .nav-bar li a:hover {
   color: #666;
 }
 
+.page-footer .footer-links label {
+  margin-top:6px;
+  margin-right:15px
+}
+
 .menu-icon {
   padding-left: 8px;
   color: rgba(255, 255, 255, 0.55);
