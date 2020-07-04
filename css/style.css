@@ -45,13 +45,13 @@
     url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot);
   src: url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.eot?#iefix)
       format("embedded-opentype"),
-    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
+      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff2)
       format("woff2"),
-    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff)
+      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.woff)
       format("woff"),
-    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.ttf)
+      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.ttf)
       format("truetype"),
-    url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.svg#playfair_displayregular)
+      url(https://g.newsweek.com/www/fonts/playfairdisplay-regular.svg#playfair_displayregular)
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -1079,7 +1079,8 @@ header .header-bottom .nav-bar li a:hover {
 }
 
 .subscribe-r .image {
-  background: rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
+  background:
+  rgba(0, 0, 0, 0) url("../img/starting5-homepage.png") no-repeat
     scroll center center / cover;
   width: 48%;
   max-width: 191px;
