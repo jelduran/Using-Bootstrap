@@ -594,6 +594,14 @@ main {
   padding-top: 0;
 }
 
+.page-footer .social li {
+  margin-left: 10px;
+}
+
+.page-footer .social li:first-child {
+  margin-left: 0;
+}
+
 header .header-bottom .nav-bar li {
   border-left-color: #d9d9d9;
   flex-grow: 1;
@@ -931,14 +939,6 @@ header .header-bottom .nav-bar li:first-child {
 .magazine .big-shots h5 {
   margin-top: 10px;
   text-transform: uppercase;
-}
-
-.page-footer .social li {
-  margin-left: 10px;
-}
-
-.page-footer .social li:first-child {
-  margin-left: 0;
 }
 
 header .header-bottom .nav-bar li a {
