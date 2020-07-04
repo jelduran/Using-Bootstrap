@@ -1253,6 +1253,28 @@ header .header-bottom .nav-bar li a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .col-wrap .news-col1 {
+    width: 41%;
+  }
+
+  .col-wrap .news-col2 {
+    width: 59%;
+  }
+
+  .col-wrap .news-col3 {
+    width: 100%;
+  }
+
+  .col-wrap .news-col4 {
+    width: 100%;
+  }
+
+  .special {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .misc-item {
     flex: 1;
   }
