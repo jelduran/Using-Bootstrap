@@ -249,10 +249,6 @@ header {
   z-index: 10;
 }
 
-main {
-  margin-top: 20px;
-}
-
 a,
 a:hover,
 a:visited,
@@ -418,7 +414,7 @@ header .logo img {
   margin: 10px auto 0;
 }
 
-header date {
+header .date {
   font: 16px/34px "Roboto Condensed", sans-serif;
   color: #fff;
   margin-left: 20px;
@@ -596,6 +592,21 @@ main {
 
 .page-footer .social li {
   margin-left: 10px;
+}
+
+header .header-bottom .nav-bar li {
+  border-left-color: #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.page-footer .footer-links li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
 }
 
 .page-footer .social li:first-child {
@@ -1183,13 +1194,6 @@ header .header-bottom .nav-bar li a:hover {
   color: #666;
 }
 
-.page-footer .footer-links li {
-  display: inline-block;
-  padding-right: 20px;
-  margin: 6px 0;
-  cursor: pointer;
-}
-
 .menu-icon {
   padding-left: 8px;
   color: rgba(255, 255, 255, 0.55);
@@ -1264,10 +1268,6 @@ header .header-bottom .nav-bar li a:hover {
     margin-bottom: 30px;
   }
 
-  .magazine h5 {
-    margin-bottom: 0;
-  }
-
   h4 {
     font-size: 22px;
     line-height: 22px;
@@ -1276,6 +1276,10 @@ header .header-bottom .nav-bar li a:hover {
   h5 {
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .magazine h5 {
+    margin-bottom: 0;
   }
 
   .subscribe::before {
@@ -1289,6 +1293,11 @@ header .header-bottom .nav-bar li a:hover {
     right: -15px;
   }
 
+  .subscribe-l,
+  .subscribe-r .info {
+    padding: 30px;
+  }
+
   .subscribe .subscribe-l .info {
     padding-left: 30px;
   }
@@ -1299,11 +1308,6 @@ header .header-bottom .nav-bar li a:hover {
 
   .subscribe-l {
     background-color: #f4f5f6;
-  }
-
-  .subscribe-l,
-  .subscribe-r .info {
-    padding: 30px;
   }
 
   .page-footer .footer-links li {
