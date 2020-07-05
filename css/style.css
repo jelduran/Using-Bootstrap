@@ -812,7 +812,11 @@ header .header-bottom .nav-bar li:first-child {
   padding-bottom: 100%;
 }
 
-.feature h3 a:hover,
+.section-picks .image a {
+  display: block;
+}
+
+.feature h3 a:hover, 
 .sponsor h3 a:hover {
   text-decoration: underline #f72210;
 }
@@ -992,10 +996,6 @@ header .header-bottom .nav-bar li a:hover {
 .section-picks article h4 {
   margin-top: 10px;
   margin-bottom: 25px;
-}
-
-.section-picks .image a {
-  display: block;
 }
 
 .section-picks .image img {
