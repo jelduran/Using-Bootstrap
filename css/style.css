@@ -516,6 +516,7 @@ main {
 
 .misc-item {
   padding: 0 10px;
+  width: 100%;
 }
 
 .misc-item .info {
@@ -838,6 +839,10 @@ header .header-bottom .nav-bar li:first-child {
   margin-top: 20px;
 }
 
+.magazine h5 {
+  margin-bottom: 30px;
+}
+
 .magazine {
   padding-top: 10px;
 }
@@ -920,10 +925,6 @@ header .header-bottom .nav-bar li:first-child {
   margin-right: 7px;
 }
 
-.magazine .bottom {
-  padding-top: 30px;
-}
-
 .magazine .big-shots .wrap .category {
   display: block;
   font: bold 16px/33px "Roboto Condensed", sans-serif;
@@ -991,6 +992,14 @@ header .header-bottom .nav-bar li a:hover {
 .section-picks article h4 {
   margin-top: 10px;
   margin-bottom: 25px;
+}
+
+.section-picks .image a {
+  display: block;
+}
+
+.section-picks .image img {
+  min-width: 100%;
 }
 
 .picks-list .image {
@@ -1283,6 +1292,10 @@ header .header-bottom .nav-bar li a:hover {
 
   .magazine h5 {
     margin-bottom: 0;
+  }
+
+  .magazine .bottom {
+    padding-top: 30px;
   }
 
   .subscribe::before {
