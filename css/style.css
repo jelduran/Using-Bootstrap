@@ -816,7 +816,7 @@ header .header-bottom .nav-bar li:first-child {
   display: block;
 }
 
-.feature h3 a:hover, 
+.feature h3 a:hover,
 .sponsor h3 a:hover {
   text-decoration: underline #f72210;
 }
