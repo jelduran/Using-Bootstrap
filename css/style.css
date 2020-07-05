@@ -1073,6 +1073,10 @@ header .header-bottom .nav-bar li a:hover {
   margin-top: 11px;
 }
 
+.subscribe-l {
+  background-color: #f4f5f6;
+}
+
 .subscribe-l .image {
   position: relative;
   padding-bottom: 13px;
@@ -1305,33 +1309,41 @@ header .header-bottom .nav-bar li a:hover {
     margin-bottom: 40px;
   }
 
-  .subscribe-l {
-    background-color: #f4f5f6;
-  }
-
   .page-footer .footer-links li {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
   }
+}
 
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    .col-wrap .news-col1 {
-      width: 41%;
-    }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .col-wrap .news-col1 {
+    width: 41%;
+  }
 
-    .col-wrap .news-col2 {
-      width: 59%;
-    }
+  .col-wrap .news-col2 {
+    width: 59%;
+  }
 
-    .col-wrap .news-col3 {
-      width: 100%;
-    }
+  .col-wrap .news-col3 {
+    width: 100%;
+  }
 
-    .special {
-      max-width: 330px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .special {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subscribe h3 {
+    font-size: 20px;
+  }
+
+  .subscribe-l {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
   }
 }
